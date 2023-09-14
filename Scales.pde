@@ -1,5 +1,5 @@
 void setup() {
-  size(1000, 1000);  //feel free to change the size
+  size(990, 990); 
   noLoop(); //stops the draw() function from repeating
   background(#19AF72);
 }
