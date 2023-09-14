@@ -1,5 +1,5 @@
 void setup() {
-  size(1500, 1500);  //feel free to change the size
+  size(1000, 1000);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
   background(#19AF72);
 }
@@ -7,8 +7,8 @@ void draw() {
   //your code here
   //bezier(20,20,10,100,100,40,90,90);
   
-  for(int y = 10; y < 1460; y += 69){
-    for(int x = 10; x < 1460; x += 69){
+  for(int y = 10; y < 970; y += 69){
+    for(int x = 10; x < 970; x += 69){
       scale(x,y);
       
     }
